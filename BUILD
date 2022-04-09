@@ -12,5 +12,6 @@ cc_library (
 
 cc_test (
   name = "example_lib_test",
-  srcs = ["example_lib_test.cc"]
+  srcs = ["example_lib_test.cc"],
+  deps = [":example_lib"]
 )
